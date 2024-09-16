@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bongobrain.expoRouterApp"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c79522e8-a331-4505-96c4-b3ce1a5af1c0"
+      }
     }
   }
 }
